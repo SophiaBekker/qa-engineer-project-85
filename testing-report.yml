@@ -3,7 +3,7 @@
   status: pass
 
 - test-case: "Проверка открытия профиля пользователя"
-  status: fail
+  status: pass
 
 - test-case: "Проверка создания игры с ботом"
   status: pass
@@ -23,3 +23,5 @@
 - test-case: "Проверка авторизации через Discord"
   status: pass
 
+- test-case: "Проверка авторизации по электронной почте"
+  status: fail
