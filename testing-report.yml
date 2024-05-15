@@ -31,3 +31,6 @@
   
 - summary: Проверка отправки сообщения в чат 
   status: pass
+
+- summary: Проверка победы в игре с ботом
+  status: pass
