@@ -46,10 +46,10 @@
   test-data: |
     Логин: admin
     Пароль: 123456
-   steps:
+  steps:
     - Вводим неправильный логин и пароль
     - Нажимаем кнопку "Войти"
-   expected-result: |
+  expected-result: |
     Пользователь не авторизован
 
  - summary: |
