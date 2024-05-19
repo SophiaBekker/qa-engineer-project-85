@@ -149,14 +149,15 @@
   prerequisites: |
     Пользователь должен быть авторизован и находиться в игровой сессии.
   test-data: |
-    Код для победы: const _ = require("lodash");
+    "Код для победы: const _ = require("lodash");
 const R = require("rambda");
 
 const solution = (width, length) => {
   return width * length;
 };
 
-module.exports = solution;
+module.exports = solution;" 
+
   steps:
    - Пользователь создает игру с ботом
    - Выбирает задачу "rect_area" и начинает игру
