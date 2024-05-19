@@ -157,7 +157,6 @@ const solution = (width, length) => {
 };
 
 module.exports = solution;" 
-
   steps:
    - Пользователь создает игру с ботом
    - Выбирает задачу "rect_area" и начинает игру
